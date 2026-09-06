@@ -1,0 +1,61 @@
+/* Snippet: Remove gap on top of server list */
+/* By: EPOS05 */
+/* Source: GitHub: https://github.com/EPOS05/cleaner-discord-theme */
+/* License: CC0 */
+/* =========================================================================== */
+.scroller_ef3116 {
+	margin-top: 0 !important;
+}
+
+/* ===========================================================================
+	TOP-RIGHT SPACING - TEXT CHANNELS
+=========================================================================== */
+
+:root {
+	/* Base width assuming the Help slot is empty: just Inbox + window buttons. */
+	--vr-header-snippet-base: 160px;
+
+	/* Extra width to add back if something occupies the old Help slot. */
+	--help-slot-offset: 0px;
+}
+
+/* If Bug Report is present (Help's replacement), add back one icon's worth of space. */
+:root:has(.trailing_c38106 [aria-label="Submit a Bug Report"]) {
+	--help-slot-offset: 35px;
+}
+
+:root {
+	--vr-header-snippet-space: calc(
+		var(--vr-header-snippet-base) + var(--help-slot-offset)
+	) !important;
+}
+
+/* ===========================================================================
+TOP-RIGHT SPACING - VOICE CALLS
+=========================================================================== */
+
+:root {
+	--toolbar-base: 10px;
+	--toolbox-offset: 0px;
+	--update-offset: 0px;
+	--devtools-offset: 0px;
+}
+
+:root:has(.vc-toolbox-icon) {
+	--toolbox-offset: 35px;
+}
+:root:has([aria-label="Update Ready!"]) {
+	--update-offset: 35px;
+}
+:root:has([aria-label="DevTools"]) {
+	--devtools-offset: 35px;
+}
+
+.wrapper_cb9592:not(.sidebarOpen_cb9592) .toolbar__9293f {
+	padding-right: calc(
+		var(--toolbar-base) + var(--toolbox-offset) + var(--update-offset) +
+			var(--devtools-offset)
+	);
+}
+
+/* =========================================================================== */

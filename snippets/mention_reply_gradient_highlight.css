@@ -1,0 +1,68 @@
+/* Snippet: Mention-Replying Gradient Highlight Colors */
+/* By: BurningStone */
+/* Source: GitHub: https://github.com/BurningStoneDiscord/DiscordHighlightGradient | Discord: https://discord.com/channels/1015060230222131221/1028106818368589824/1368192901535895704 */
+/* License: CC0 */
+/* =========================================================================== */
+/*FANCY MENTION/REPLY GRADIENT COLORS*/
+
+/*By: Burning Stone*/
+
+.mentioned__5126c {
+	position: relative;
+	border: none !important;
+	background-color: transparent;
+	background-image: linear-gradient(
+		to right,
+		rgba(186, 109, 20, 0.2),
+		var(--background-base-lower)
+	);
+	border-radius: 4px;
+}
+
+.message__5126c.mentioned__5126c.selected__5126c,
+.mouse-mode.full-motion .message__5126c.mentioned__5126c:hover {
+	background: linear-gradient(
+		to right,
+		rgba(186, 109, 36, 0.2),
+		var(--message-background-hover)
+	);
+}
+
+.replying__5126c {
+	position: relative;
+	border: none !important;
+	border-radius: 4px;
+	background-color: transparent;
+	background-image: linear-gradient(
+		to right,
+		rgba(58, 72, 163, 0.3),
+		var(--background-base-lower)
+	);
+}
+
+.message__5126c.replying__5126c.selected__5126c,
+.mouse-mode.full-motion .message__5126c.replying__5126c:hover {
+	background: linear-gradient(
+		to right,
+		rgba(58, 72, 179, 0.3),
+		var(--message-background-hover)
+	);
+}
+
+.flash__034365 {
+	background-image: transparent;
+}
+
+.flash__034365[data-flash="true"] {
+	background-image: linear-gradient(
+		to right,
+		rgba(58, 72, 163, 0.3),
+		var(--background-base-lower)
+	);
+}
+
+.full-motion .flash__034365 {
+	transition: rgba(0, 0, 0, 0) 0.2s ease;
+}
+
+/* =========================================================================== */

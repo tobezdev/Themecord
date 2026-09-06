@@ -1,0 +1,18 @@
+/* Snippet: Collapse Icon Position Fix */
+/* By: sakgoyal */
+/* Source: Discord: https://discord.com/channels/1015060230222131221/1028106818368589824/1362945175957012612 */
+/* License: CC0 */
+/* =========================================================================== */
+.containerDefault__29444 {
+	> div {
+		padding-left: 0.5em;
+
+		> div {
+			display: flex !important;
+			place-content: start !important;
+			flex-direction: row-reverse !important;
+		}
+	}
+}
+
+/* =========================================================================== */

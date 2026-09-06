@@ -1,0 +1,10 @@
+/* Snippet: Remove nitro gift button */
+/* By: EPOS05 */
+/* Source: GitHub: https://github.com/EPOS05/cleaner-discord-theme */
+/* License: CC0 */
+/* =========================================================================== */
+div:has(> [aria-label="Send a gift"]) {
+	display: none !important;
+}
+
+/* =========================================================================== */

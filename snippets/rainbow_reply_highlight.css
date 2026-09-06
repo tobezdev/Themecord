@@ -1,0 +1,35 @@
+/* Rainbow  highlight */
+.mentioned__5126c,
+.replying__5126c,
+.mentioned__5126c:hover,
+.replying__5126c:hover,
+.mentioned__5126c.selected__5126c,
+.replying__5126c.selected__5126c {
+	background: linear-gradient(
+		100deg,
+		rgba(229, 0, 0, 0.2) 0%,
+		rgba(255, 141, 0, 0.2) 16%,
+		rgba(255, 238, 0, 0.2) 33%,
+		rgba(2, 129, 33, 0.2) 50%,
+		rgba(0, 76, 255, 0.2) 66%,
+		rgba(119, 0, 136, 0.2) 84%,
+		rgba(119, 0, 136, 0.2) 100%
+	) !important;
+}
+
+/* Rainbow highlight bar */
+.mentioned__5126c::before,
+.replying__5126c::before {
+	background: linear-gradient(
+		180deg,
+		rgb(299, 0, 0) 0%,
+		rgb(255, 141, 0) 16%,
+		rgb(255, 238, 0) 33%,
+		rgb(2, 129, 33) 50%,
+		rgb(0, 76, 255) 66%,
+		rgb(119, 0, 136) 84%,
+		rgb(119, 0, 136) 100%
+	) !important;
+}
+
+/* =========================================================================== */
