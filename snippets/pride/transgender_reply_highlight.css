@@ -1,0 +1,33 @@
+/* Transgender highlight */
+.mentioned__5126c,
+.replying__5126c,
+.mentioned__5126c:hover,
+.replying__5126c:hover,
+.mentioned__5126c.selected__5126c,
+.replying__5126c.selected__5126c {
+	background: linear-gradient(
+		100deg,
+		rgba(91, 206, 250, 0.2) 0.00%,
+		rgba(245, 169, 184, 0.2) 20.00%,
+		rgba(255, 255, 255, 0.2) 40.00%,
+		rgba(245, 169, 184, 0.2) 60.00%,
+		rgba(91, 206, 250, 0.2) 80.00%,
+		rgba(91, 206, 250, 0.2) 100%
+	) !important;
+}
+
+/* Transgender highlight bar */
+.mentioned__5126c::before,
+.replying__5126c::before {
+	background: linear-gradient(
+		180deg,
+		rgb(91, 206, 250) 0.00%,
+		rgb(245, 169, 184) 20.00%,
+		rgb(255, 255, 255) 40.00%,
+		rgb(245, 169, 184) 60.00%,
+		rgb(91, 206, 250) 80.00%,
+		rgb(91, 206, 250) 100%
+	) !important;
+}
+
+/* =========================================================================== */

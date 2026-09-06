@@ -1,0 +1,29 @@
+/* Genderqueer highlight */
+.mentioned__5126c,
+.replying__5126c,
+.mentioned__5126c:hover,
+.replying__5126c:hover,
+.mentioned__5126c.selected__5126c,
+.replying__5126c.selected__5126c {
+	background: linear-gradient(
+		100deg,
+		rgba(181, 126, 220, 0.2) 0.00%,
+		rgba(255, 255, 255, 0.2) 33.33%,
+		rgba(74, 129, 35, 0.2) 66.67%,
+		rgba(74, 129, 35, 0.2) 100%
+	) !important;
+}
+
+/* Genderqueer highlight bar */
+.mentioned__5126c::before,
+.replying__5126c::before {
+	background: linear-gradient(
+		180deg,
+		rgb(181, 126, 220) 0.00%,
+		rgb(255, 255, 255) 33.33%,
+		rgb(74, 129, 35) 66.67%,
+		rgb(74, 129, 35) 100%
+	) !important;
+}
+
+/* =========================================================================== */

@@ -1,0 +1,33 @@
+/* Aromantic highlight */
+.mentioned__5126c,
+.replying__5126c,
+.mentioned__5126c:hover,
+.replying__5126c:hover,
+.mentioned__5126c.selected__5126c,
+.replying__5126c.selected__5126c {
+	background: linear-gradient(
+		100deg,
+		rgba(61, 165, 66, 0.2) 0.00%,
+		rgba(167, 211, 121, 0.2) 20.00%,
+		rgba(255, 255, 255, 0.2) 40.00%,
+		rgba(169, 169, 169, 0.2) 60.00%,
+		rgba(0, 0, 0, 0.2) 80.00%,
+		rgba(0, 0, 0, 0.2) 100%
+	) !important;
+}
+
+/* Aromantic highlight bar */
+.mentioned__5126c::before,
+.replying__5126c::before {
+	background: linear-gradient(
+		180deg,
+		rgb(61, 165, 66) 0.00%,
+		rgb(167, 211, 121) 20.00%,
+		rgb(255, 255, 255) 40.00%,
+		rgb(169, 169, 169) 60.00%,
+		rgb(0, 0, 0) 80.00%,
+		rgb(0, 0, 0) 100%
+	) !important;
+}
+
+/* =========================================================================== */

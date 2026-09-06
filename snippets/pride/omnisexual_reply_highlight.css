@@ -1,0 +1,33 @@
+/* Omnisexual highlight */
+.mentioned__5126c,
+.replying__5126c,
+.mentioned__5126c:hover,
+.replying__5126c:hover,
+.mentioned__5126c.selected__5126c,
+.replying__5126c.selected__5126c {
+	background: linear-gradient(
+		100deg,
+		rgba(255, 154, 206, 0.2) 0.00%,
+		rgba(255, 83, 191, 0.2) 20.00%,
+		rgba(32, 0, 68, 0.2) 40.00%,
+		rgba(103, 96, 254, 0.2) 60.00%,
+		rgba(142, 166, 255, 0.2) 80.00%,
+		rgba(142, 166, 255, 0.2) 100%
+	) !important;
+}
+
+/* Omnisexual highlight bar */
+.mentioned__5126c::before,
+.replying__5126c::before {
+	background: linear-gradient(
+		180deg,
+		rgb(255, 154, 206) 0.00%,
+		rgb(255, 83, 191) 20.00%,
+		rgb(32, 0, 68) 40.00%,
+		rgb(103, 96, 254) 60.00%,
+		rgb(142, 166, 255) 80.00%,
+		rgb(142, 166, 255) 100%
+	) !important;
+}
+
+/* =========================================================================== */

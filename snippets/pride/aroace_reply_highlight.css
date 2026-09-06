@@ -1,0 +1,33 @@
+/* Aroace (sunset) highlight */
+.mentioned__5126c,
+.replying__5126c,
+.mentioned__5126c:hover,
+.replying__5126c:hover,
+.mentioned__5126c.selected__5126c,
+.replying__5126c.selected__5126c {
+	background: linear-gradient(
+		100deg,
+		rgba(226, 140, 0, 0.2) 0.00%,
+		rgba(236, 205, 0, 0.2) 20.00%,
+		rgba(255, 255, 255, 0.2) 40.00%,
+		rgba(98, 174, 220, 0.2) 60.00%,
+		rgba(32, 56, 86, 0.2) 80.00%,
+		rgba(32, 56, 86, 0.2) 100%
+	) !important;
+}
+
+/* Aroace (sunset) highlight bar */
+.mentioned__5126c::before,
+.replying__5126c::before {
+	background: linear-gradient(
+		180deg,
+		rgb(226, 140, 0) 0.00%,
+		rgb(236, 205, 0) 20.00%,
+		rgb(255, 255, 255) 40.00%,
+		rgb(98, 174, 220) 60.00%,
+		rgb(32, 56, 86) 80.00%,
+		rgb(32, 56, 86) 100%
+	) !important;
+}
+
+/* =========================================================================== */

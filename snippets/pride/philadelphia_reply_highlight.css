@@ -1,0 +1,39 @@
+/* Philadelphia pride highlight */
+.mentioned__5126c,
+.replying__5126c,
+.mentioned__5126c:hover,
+.replying__5126c:hover,
+.mentioned__5126c.selected__5126c,
+.replying__5126c.selected__5126c {
+	background: linear-gradient(
+		100deg,
+		rgba(0, 0, 0, 0.2) 0.00%,
+		rgba(120, 79, 23, 0.2) 12.50%,
+		rgba(229, 0, 0, 0.2) 25.00%,
+		rgba(255, 141, 0, 0.2) 37.50%,
+		rgba(255, 238, 0, 0.2) 50.00%,
+		rgba(2, 129, 33, 0.2) 62.50%,
+		rgba(0, 76, 255, 0.2) 75.00%,
+		rgba(119, 0, 136, 0.2) 87.50%,
+		rgba(119, 0, 136, 0.2) 100%
+	) !important;
+}
+
+/* Philadelphia pride highlight bar */
+.mentioned__5126c::before,
+.replying__5126c::before {
+	background: linear-gradient(
+		180deg,
+		rgb(0, 0, 0) 0.00%,
+		rgb(120, 79, 23) 12.50%,
+		rgb(229, 0, 0) 25.00%,
+		rgb(255, 141, 0) 37.50%,
+		rgb(255, 238, 0) 50.00%,
+		rgb(2, 129, 33) 62.50%,
+		rgb(0, 76, 255) 75.00%,
+		rgb(119, 0, 136) 87.50%,
+		rgb(119, 0, 136) 100%
+	) !important;
+}
+
+/* =========================================================================== */

@@ -1,0 +1,31 @@
+/* Asexual highlight */
+.mentioned__5126c,
+.replying__5126c,
+.mentioned__5126c:hover,
+.replying__5126c:hover,
+.mentioned__5126c.selected__5126c,
+.replying__5126c.selected__5126c {
+	background: linear-gradient(
+		100deg,
+		rgba(0, 0, 0, 0.2) 0.00%,
+		rgba(163, 163, 163, 0.2) 25.00%,
+		rgba(255, 255, 255, 0.2) 50.00%,
+		rgba(128, 0, 128, 0.2) 75.00%,
+		rgba(128, 0, 128, 0.2) 100%
+	) !important;
+}
+
+/* Asexual highlight bar */
+.mentioned__5126c::before,
+.replying__5126c::before {
+	background: linear-gradient(
+		180deg,
+		rgb(0, 0, 0) 0.00%,
+		rgb(163, 163, 163) 25.00%,
+		rgb(255, 255, 255) 50.00%,
+		rgb(128, 0, 128) 75.00%,
+		rgb(128, 0, 128) 100%
+	) !important;
+}
+
+/* =========================================================================== */

@@ -1,0 +1,29 @@
+/* Polysexual highlight */
+.mentioned__5126c,
+.replying__5126c,
+.mentioned__5126c:hover,
+.replying__5126c:hover,
+.mentioned__5126c.selected__5126c,
+.replying__5126c.selected__5126c {
+	background: linear-gradient(
+		100deg,
+		rgba(246, 28, 185, 0.2) 0.00%,
+		rgba(7, 213, 105, 0.2) 33.33%,
+		rgba(28, 146, 246, 0.2) 66.67%,
+		rgba(28, 146, 246, 0.2) 100%
+	) !important;
+}
+
+/* Polysexual highlight bar */
+.mentioned__5126c::before,
+.replying__5126c::before {
+	background: linear-gradient(
+		180deg,
+		rgb(246, 28, 185) 0.00%,
+		rgb(7, 213, 105) 33.33%,
+		rgb(28, 146, 246) 66.67%,
+		rgb(28, 146, 246) 100%
+	) !important;
+}
+
+/* =========================================================================== */

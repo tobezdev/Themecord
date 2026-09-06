@@ -1,0 +1,37 @@
+/* Demiboy highlight */
+.mentioned__5126c,
+.replying__5126c,
+.mentioned__5126c:hover,
+.replying__5126c:hover,
+.mentioned__5126c.selected__5126c,
+.replying__5126c.selected__5126c {
+	background: linear-gradient(
+		100deg,
+		rgba(127, 127, 127, 0.2) 0.00%,
+		rgba(196, 196, 196, 0.2) 14.29%,
+		rgba(154, 217, 235, 0.2) 28.57%,
+		rgba(255, 255, 255, 0.2) 42.86%,
+		rgba(154, 217, 235, 0.2) 57.14%,
+		rgba(196, 196, 196, 0.2) 71.43%,
+		rgba(127, 127, 127, 0.2) 85.71%,
+		rgba(127, 127, 127, 0.2) 100%
+	) !important;
+}
+
+/* Demiboy highlight bar */
+.mentioned__5126c::before,
+.replying__5126c::before {
+	background: linear-gradient(
+		180deg,
+		rgb(127, 127, 127) 0.00%,
+		rgb(196, 196, 196) 14.29%,
+		rgb(154, 217, 235) 28.57%,
+		rgb(255, 255, 255) 42.86%,
+		rgb(154, 217, 235) 57.14%,
+		rgb(196, 196, 196) 71.43%,
+		rgb(127, 127, 127) 85.71%,
+		rgb(127, 127, 127) 100%
+	) !important;
+}
+
+/* =========================================================================== */

@@ -1,0 +1,31 @@
+/* Nonbinary highlight */
+.mentioned__5126c,
+.replying__5126c,
+.mentioned__5126c:hover,
+.replying__5126c:hover,
+.mentioned__5126c.selected__5126c,
+.replying__5126c.selected__5126c {
+	background: linear-gradient(
+		100deg,
+		rgba(255, 244, 48, 0.2) 0.00%,
+		rgba(255, 255, 255, 0.2) 25.00%,
+		rgba(156, 89, 209, 0.2) 50.00%,
+		rgba(45, 45, 45, 0.2) 75.00%,
+		rgba(45, 45, 45, 0.2) 100%
+	) !important;
+}
+
+/* Nonbinary highlight bar */
+.mentioned__5126c::before,
+.replying__5126c::before {
+	background: linear-gradient(
+		180deg,
+		rgb(255, 244, 48) 0.00%,
+		rgb(255, 255, 255) 25.00%,
+		rgb(156, 89, 209) 50.00%,
+		rgb(45, 45, 45) 75.00%,
+		rgb(45, 45, 45) 100%
+	) !important;
+}
+
+/* =========================================================================== */
